@@ -1,0 +1,16 @@
+{
+  "name": "ztm-nasa-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start-server": "npm start --prefix server",
+    "start-client": "npm start --prefix client",
+    "build": "set BUILD_PATH=../server/public && npm run build --prefix client",
+    "start": "concurrently \"npm run start-server\" \"npm run start-client\"",
+    "deploy": "npm run build && npm run start-server"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
