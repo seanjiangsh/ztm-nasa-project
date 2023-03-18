@@ -3,3 +3,6 @@
 
 # build results
 *build
+
+# secrets
+*.key
