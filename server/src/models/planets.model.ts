@@ -1,15 +1,14 @@
 import fs from "fs";
 
 import { parse } from "csv-parse";
+import { planets } from "./planets.mongo";
 
 type Planet = {
-  kepler_name: string;
+  keplerName: string;
   koi_disposition: "CONFIRMED" | "CANDIDATE" | "FALSE POSITIVE";
   koi_insol: number;
   koi_prad: number;
 };
-
-const habitablePlanets: Array<Planet> = [];
 
 function isHabitablePlanet(planet: Planet) {
   const { koi_disposition, koi_insol, koi_prad } = planet;
@@ -25,25 +24,37 @@ async function loadPlanetsData() {
   return new Promise<void>((resolve, reject) => {
     fs.createReadStream("data/kepler_data.csv")
       .pipe(parse({ comment: "#", columns: true }))
-      .on("data", (d) => {
-        if (isHabitablePlanet(d)) habitablePlanets.push(d);
+      .on("data", async (d) => {
+        if (isHabitablePlanet(d)) {
+          const planet = { keplerName: d.kepler_name } as Planet;
+          console.log(planet);
+          await savePlanet(planet);
+        }
       })
       .on("error", (e) => {
         console.log(e);
         reject(e);
       })
-      .on("end", () => {
-        // console.log(
-        //   habitablePlanets.map((d) => d.kepler_name),
-        //   habitablePlanets.length
-        // );
+      .on("end", async () => {
+        const planetsFound = await getAllPlanets();
+        console.log(`${planetsFound.length} habitable planets found`);
         resolve();
       });
   });
 }
 
-function getAllPlanets() {
-  return habitablePlanets;
+async function savePlanet(planet: Planet) {
+  try {
+    // * store (upsert) planet data to MongoDB
+    await planets.updateOne(planet, planet, { upsert: true });
+  } catch (err) {
+    console.error(`Could not save planet ${err}`);
+  }
 }
 
+async function getAllPlanets() {
+  return await planets.find({});
+}
+
+export { Planet };
 export { loadPlanetsData, getAllPlanets };
