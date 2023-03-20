@@ -6,6 +6,12 @@ Based on section of ZTM course: [Complete Node.js Developer in 2023](https://zer
 
 ---
 
+## Project Archiecture
+
+<img src="architecture.svg" alt="Project Archiecture" />
+
+---
+
 ## VSCode Extension requirement
 
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)

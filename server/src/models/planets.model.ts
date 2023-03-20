@@ -27,7 +27,7 @@ async function loadPlanetsData() {
       .on("data", async (d) => {
         if (isHabitablePlanet(d)) {
           const planet = { keplerName: d.kepler_name } as Planet;
-          console.log(planet);
+          // console.log(planet);
           await savePlanet(planet);
         }
       })
@@ -53,7 +53,7 @@ async function savePlanet(planet: Planet) {
 }
 
 async function getAllPlanets() {
-  return await planets.find({});
+  return await planets.find({}, { _id: 0, __v: 0 });
 }
 
 export { Planet };
