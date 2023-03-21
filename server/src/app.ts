@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(cors({ origin: "http://localhost:3000" }));
 
 // ! endpoints
-app.use(planetsRouter);
+app.use("/planets", planetsRouter);
 app.use("/launches", launchesRouter);
 
 // * serve public files on root

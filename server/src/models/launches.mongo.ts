@@ -14,6 +14,6 @@ const launchDef: SchemaDefinition<Launch> = {
 };
 const launchesSchema = new mongoose.Schema(launchDef);
 // * Connects launchesSchema with the "launches" collection
-// const launches = mongoose.model("Launch", launchesSchema);
+const launches = mongoose.model("Launch", launchesSchema);
 
-// export { launches };
+export { launches };

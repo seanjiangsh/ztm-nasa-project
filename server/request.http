@@ -13,7 +13,7 @@ content-type: application/json
   "rocket": "ZTM Experimental R1",
   "destination": "Kepler-168 f",
   "launchDate": "January 17, 2030",
-  "target": "Kepler-1652 b"
+  "target": "Kepler-1410 b"
 }
 
 ### /launches
