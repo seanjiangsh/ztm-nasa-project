@@ -11,10 +11,9 @@ content-type: application/json
 { 
   "mission": "ZTM155",
   "rocket": "ZTM Experimental R1",
-  "destination": "Kepler-168 f",
   "launchDate": "January 17, 2030",
   "target": "Kepler-1410 b"
 }
 
 ### /launches
-DELETE http://localhost:5000/launches/100 HTTP/1.1
+DELETE http://localhost:5000/launches/102 HTTP/1.1

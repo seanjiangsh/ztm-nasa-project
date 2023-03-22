@@ -2,22 +2,23 @@ import { describe } from "node:test";
 const request = require("supertest");
 
 import app from "../../app";
+import { mongoConnect, mongoDisconnect } from "../../services/mongo";
 
-describe("Test GET /launches", () => {
+const getLaunches = () => {
   test("It should respond with 200 success", async () => {
     await request(app)
       .get("/launches")
       .expect("content-type", /json/)
       .expect(200);
   });
-});
+};
 
-describe("Test POST /launches", () => {
+const postLaunches = () => {
   test("It should respond with 201 created", async () => {
     const reqBody = {
       mission: "USS Enterprise",
       rocket: "NCC 1701-D",
-      target: "Kepler-186 f",
+      target: "Kepler-1410 b",
       launchDate: "January 4, 2028",
     };
     const res = await request(app)
@@ -34,13 +35,13 @@ describe("Test POST /launches", () => {
       ...reqBody,
       launchDate: new Date(reqBody.launchDate).toISOString(),
     };
-    expect(res.body).toStrictEqual(expectResBody);
+    expect(res.body).toMatchObject(expectResBody);
   });
   test("It should catch mission required properties", async () => {
     const reqBody = {
       mission: "USS Enterprise",
       rocket: "NCC 1701-D",
-      target: "Kepler-186 f",
+      target: "Kepler-1410 b",
     };
     const errMsg = { error: "Missing required launch property" };
     const res = await request(app)
@@ -48,13 +49,13 @@ describe("Test POST /launches", () => {
       .send(reqBody)
       .expect("content-type", /json/)
       .expect(400);
-    expect(res.body).toStrictEqual(errMsg);
+    expect(res.body).toMatchObject(errMsg);
   });
   test("It should catch invalid dates", async () => {
     const reqBody = {
       mission: "USS Enterprise",
       rocket: "NCC 1701-D",
-      target: "Kepler-186 f",
+      target: "Kepler-1410 b",
       launchDate: "Whatever 4, 2028",
     };
     const errMsg = { error: "Invalid launch date" };
@@ -63,6 +64,13 @@ describe("Test POST /launches", () => {
       .send(reqBody)
       .expect("content-type", /json/)
       .expect(400);
-    expect(res.body).toStrictEqual(errMsg);
+    expect(res.body).toMatchObject(errMsg);
   });
+};
+
+describe("Launches API", () => {
+  beforeAll(async () => await mongoConnect());
+  describe("Test GET /launches", getLaunches);
+  describe("Test POST /launches", postLaunches);
+  afterAll(async () => await mongoDisconnect());
 });

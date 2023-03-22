@@ -1,5 +1,6 @@
 import { launches } from "./launches.mongo";
-import { planets } from "./planets.mongo";
+
+import { findPlanet } from "./planets.model";
 
 type LaunchData = {
   mission: string;
@@ -15,6 +16,7 @@ type Launch = LaunchData & {
 };
 
 const UPSERT = { upsert: true };
+const FIND_OPTION = { _id: 0, __v: 0 }; // * remove MongoDB buildin property
 const DEFAULT_FLIGHT_NUMBER = 100;
 
 // const launch: Launch = {
@@ -30,7 +32,7 @@ const DEFAULT_FLIGHT_NUMBER = 100;
 // saveLaunch(launch);
 
 async function getAllLaunches() {
-  return await launches.find<Launch>({}, { _id: 0, __v: 0 });
+  return await launches.find<Launch>({}, FIND_OPTION);
 }
 
 async function getLatestFlightNumber(): Promise<number> {
@@ -39,17 +41,17 @@ async function getLatestFlightNumber(): Promise<number> {
   return latestLaunch.flightNumber;
 }
 
+async function scheduledLaunchWithId(launchId: number) {
+  const launchFilter = { flightNumber: launchId, upcoming: true };
+  return await launches.findOne(launchFilter);
+}
+
 async function saveLaunch(launch: Launch) {
   const launchFilter = { flightNumber: launch.flightNumber };
   await launches.findOneAndUpdate(launchFilter, launch, UPSERT);
 }
 
 async function scheduleNewLaunch(data: LaunchData) {
-  // * check target planet exist
-  const planet = { keplerName: data.target };
-  const foundPlanet = await planets.findOne(planet, { _id: 0, __v: 0 });
-  if (!foundPlanet) return;
-
   // * save new launch data to MongoDB
   const latestFlightNumber = (await getLatestFlightNumber()) + 1;
   const launch: Launch = {
@@ -68,22 +70,17 @@ async function scheduleNewLaunch(data: LaunchData) {
 }
 
 // * mark launch as aborted
-async function abortLaunchById(id: number) {
-  // console.log(id, launches.get(id));
-  // const launch = launches.get(id);
-  const filter = { flightNumber: id };
-  const launch = await launches.findOneAndUpdate<Launch>(filter, {
-    _id: 0,
-    __v: 0,
-  });
-  if (!launch) return;
-  await launches.updateOne(filter, launch, UPSERT);
-  if (!launch) return;
-
-  launch.upcoming = false;
-  launch.success = false;
-  return launch;
+async function abortLaunchById(flightNumber: number) {
+  const filter = { flightNumber };
+  const update = { upcoming: false, success: false };
+  const result = await launches.updateOne<Launch>(filter, update);
+  return result.modifiedCount === 1;
 }
 
 export { LaunchData, Launch };
-export { getAllLaunches, scheduleNewLaunch, abortLaunchById };
+export {
+  getAllLaunches,
+  scheduledLaunchWithId,
+  scheduleNewLaunch,
+  abortLaunchById,
+};

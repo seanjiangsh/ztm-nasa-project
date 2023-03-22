@@ -10,6 +10,9 @@ type Planet = {
   koi_prad: number;
 };
 
+const UPSERT = { upsert: true };
+const FIND_OPTION = { _id: 0, __v: 0 }; // * remove MongoDB buildin property
+
 function isHabitablePlanet(planet: Planet) {
   const { koi_disposition, koi_insol, koi_prad } = planet;
   return (
@@ -46,15 +49,19 @@ async function loadPlanetsData() {
 async function savePlanet(planet: Planet) {
   try {
     // * store (upsert) planet data to MongoDB
-    await planets.updateOne(planet, planet, { upsert: true });
+    await planets.updateOne(planet, planet, UPSERT);
   } catch (err) {
     console.error(`Could not save planet ${err}`);
   }
 }
 
 async function getAllPlanets() {
-  return await planets.find({}, { _id: 0, __v: 0 });
+  return await planets.find({}, FIND_OPTION);
+}
+
+async function findPlanet(keplerName: string) {
+  return await planets.findOne({ keplerName }, FIND_OPTION);
 }
 
 export { Planet };
-export { loadPlanetsData, getAllPlanets };
+export { loadPlanetsData, getAllPlanets, findPlanet };
