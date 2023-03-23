@@ -4,10 +4,12 @@ const request = require("supertest");
 import app from "../../app";
 import { mongoConnect, mongoDisconnect } from "../../services/mongo";
 
+const API_VERSION = "v1";
+
 const getLaunches = () => {
   test("It should respond with 200 success", async () => {
     await request(app)
-      .get("/launches")
+      .get(`/${API_VERSION}/launches`)
       .expect("content-type", /json/)
       .expect(200);
   });
@@ -22,7 +24,7 @@ const postLaunches = () => {
       launchDate: "January 4, 2028",
     };
     const res = await request(app)
-      .post("/launches")
+      .post(`/${API_VERSION}/launches`)
       .send(reqBody)
       .expect("content-type", /json/)
       .expect(201);
@@ -45,7 +47,7 @@ const postLaunches = () => {
     };
     const errMsg = { error: "Missing required launch property" };
     const res = await request(app)
-      .post("/launches")
+      .post(`/${API_VERSION}/launches`)
       .send(reqBody)
       .expect("content-type", /json/)
       .expect(400);
@@ -60,7 +62,7 @@ const postLaunches = () => {
     };
     const errMsg = { error: "Invalid launch date" };
     const res = await request(app)
-      .post("/launches")
+      .post(`/${API_VERSION}/launches`)
       .send(reqBody)
       .expect("content-type", /json/)
       .expect(400);
@@ -70,7 +72,7 @@ const postLaunches = () => {
 
 describe("Launches API", () => {
   beforeAll(async () => await mongoConnect());
-  describe("Test GET /launches", getLaunches);
-  describe("Test POST /launches", postLaunches);
+  describe(`Test GET /${API_VERSION}/launches`, getLaunches);
+  describe(`Test POST /${API_VERSION}/launches`, postLaunches);
   afterAll(async () => await mongoDisconnect());
 });

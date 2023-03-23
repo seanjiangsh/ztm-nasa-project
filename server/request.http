@@ -1,11 +1,11 @@
 ### /planets
-GET http://localhost:5000/planets HTTP/1.1
+GET http://localhost:5000/v1/planets HTTP/1.1
 
 ### /launches
-GET http://localhost:5000/launches HTTP/1.1
+GET http://localhost:5000/v1/launches HTTP/1.1
 
 ### /launches
-POST http://localhost:5000/launches HTTP/1.1
+POST http://localhost:5000/v1/launches HTTP/1.1
 content-type: application/json
 
 { 
@@ -16,4 +16,4 @@ content-type: application/json
 }
 
 ### /launches
-DELETE http://localhost:5000/launches/102 HTTP/1.1
+DELETE http://localhost:5000/v1/launches/102 HTTP/1.1
