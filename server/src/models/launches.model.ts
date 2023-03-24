@@ -1,6 +1,6 @@
-import { launches } from "./launches.mongo";
+import fs from "fs";
 
-import { findPlanet } from "./planets.model";
+import { launches } from "./launches.mongo";
 
 type LaunchData = {
   mission: string;
@@ -41,9 +41,9 @@ async function getLatestFlightNumber(): Promise<number> {
   return latestLaunch.flightNumber;
 }
 
-async function scheduledLaunchWithId(launchId: number) {
-  const launchFilter = { flightNumber: launchId, upcoming: true };
-  return await launches.findOne(launchFilter);
+type FindLaunchFilter = { flightNumber: number } & any;
+async function findLaunch(filter: FindLaunchFilter) {
+  return await launches.findOne(filter);
 }
 
 async function saveLaunch(launch: Launch) {
@@ -77,10 +77,100 @@ async function abortLaunchById(flightNumber: number) {
   return result.modifiedCount === 1;
 }
 
+// ! v2
+type SpaceXLaunch = {
+  flight_number: number;
+  name: string;
+  rocket: { name: string };
+  date_local: string;
+  payloads: Array<{ customers: Array<string> }>;
+  upcoming: boolean;
+  success: boolean;
+};
+type SpaceXResponseData = {
+  docs: Array<SpaceXLaunch>;
+  totalPages: number;
+  page: number;
+  nextPage: number;
+};
+
+// * load launches from SpaceX API
+// https://github.com/r-spacex/SpaceX-API
+async function loadLaunchesData() {
+  const findLaunchFilter = {
+    flightNumber: 1,
+    rocket: "Falcon 1",
+    mission: "FalconSat",
+  };
+  const firstLaunchInMongo = await findLaunch(findLaunchFilter);
+
+  if (firstLaunchInMongo) {
+    console.log("Launch data already loaded");
+  } else {
+    const launches = await getSpaceXLaunches();
+    launches.forEach(saveLaunch);
+    console.log("New SpaceX launches loaded");
+  }
+}
+
+async function getSpaceXLaunches() {
+  const url = "https://api.spacexdata.com/v5/launches/query";
+  const body = {
+    query: {},
+    options: {
+      pagination: false,
+      populate: [
+        { path: "rocket", select: { name: 1 } },
+        { path: "payloads", select: { customers: 1 } },
+      ],
+    },
+  };
+  const init: RequestInit = {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  };
+  const response = await fetch(url, init);
+  if (response.status !== 200) {
+    console.error("Problem downloading launch data");
+    throw new Error("Launch data download failed");
+  }
+
+  const resJson: SpaceXResponseData = await response.json();
+  const xLaunches = resJson.docs;
+  const launches: Array<Launch> = [];
+  for (const xLaunch of xLaunches) {
+    const {
+      flight_number,
+      name,
+      rocket,
+      date_local,
+      payloads,
+      upcoming,
+      success,
+    } = xLaunch;
+    const customers = payloads.flatMap((p) => p.customers);
+    const launch: Launch = {
+      flightNumber: flight_number,
+      mission: name,
+      rocket: rocket.name,
+      target: "N/A",
+      launchDate: new Date(date_local),
+      customers,
+      upcoming,
+      success,
+    };
+    launches.push(launch);
+  }
+  // fs.writeFileSync("../SpaceX.json", JSON.stringify(launches), "utf-8");
+  return launches;
+}
+
 export { LaunchData, Launch };
 export {
   getAllLaunches,
-  scheduledLaunchWithId,
+  findLaunch,
   scheduleNewLaunch,
   abortLaunchById,
+  loadLaunchesData,
 };

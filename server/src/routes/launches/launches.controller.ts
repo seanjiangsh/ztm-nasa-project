@@ -5,7 +5,7 @@ import {
   scheduleNewLaunch,
   LaunchData,
   abortLaunchById,
-  scheduledLaunchWithId,
+  findLaunch,
 } from "../../models/launches.model";
 import { findPlanet } from "../../models/planets.model";
 
@@ -38,7 +38,7 @@ async function httpAbortLaunch(req: Request, res: Response) {
   const id = Number(req.params.id);
   if (isNaN(id)) return res.status(400).json({ error: "Invalid launch id" });
 
-  if (!(await scheduledLaunchWithId(id)))
+  if (!(await findLaunch({ flightNumber: id, upcoming: true })))
     return res.status(404).json({ error: "Launch not found or aborted" });
 
   const result = await abortLaunchById(id);

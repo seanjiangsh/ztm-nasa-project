@@ -1,0 +1,2083 @@
+[
+  {
+    "flightNumber": 1,
+    "mission": "FalconSat",
+    "rocket": { "name": "Falcon 1", "id": "5e9d0d95eda69955f709d1eb" },
+    "target": "N/A",
+    "launchDate": "2006-03-24T22:30:00.000Z",
+    "customers": ["DARPA"],
+    "upcoming": false,
+    "success": false
+  },
+  {
+    "flightNumber": 2,
+    "mission": "DemoSat",
+    "rocket": { "name": "Falcon 1", "id": "5e9d0d95eda69955f709d1eb" },
+    "target": "N/A",
+    "launchDate": "2007-03-21T01:10:00.000Z",
+    "customers": ["DARPA"],
+    "upcoming": false,
+    "success": false
+  },
+  {
+    "flightNumber": 3,
+    "mission": "Trailblazer",
+    "rocket": { "name": "Falcon 1", "id": "5e9d0d95eda69955f709d1eb" },
+    "target": "N/A",
+    "launchDate": "2008-08-03T03:34:00.000Z",
+    "customers": ["NASA", "ORS"],
+    "upcoming": false,
+    "success": false
+  },
+  {
+    "flightNumber": 4,
+    "mission": "RatSat",
+    "rocket": { "name": "Falcon 1", "id": "5e9d0d95eda69955f709d1eb" },
+    "target": "N/A",
+    "launchDate": "2008-09-27T23:15:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 5,
+    "mission": "RazakSat",
+    "rocket": { "name": "Falcon 1", "id": "5e9d0d95eda69955f709d1eb" },
+    "target": "N/A",
+    "launchDate": "2009-07-13T03:35:00.000Z",
+    "customers": ["ATSB"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 6,
+    "mission": "Falcon 9 Test Flight",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2010-06-04T18:45:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 7,
+    "mission": "COTS 1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2010-12-08T15:43:00.000Z",
+    "customers": ["NASA(COTS)", "NRO"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 8,
+    "mission": "COTS 2",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2012-05-22T07:44:00.000Z",
+    "customers": ["NASA(COTS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 9,
+    "mission": "CRS-1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2012-10-09T00:35:00.000Z",
+    "customers": ["NASA (CRS)", "Orbcomm"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 10,
+    "mission": "CRS-2",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2013-03-01T19:10:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 11,
+    "mission": "CASSIOPE",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2013-09-29T16:00:00.000Z",
+    "customers": ["MDA"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 12,
+    "mission": "SES-8",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2013-12-03T22:41:00.000Z",
+    "customers": ["SES"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 13,
+    "mission": "Thaicom 6",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2014-01-06T18:06:00.000Z",
+    "customers": ["Thaicom"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 14,
+    "mission": "CRS-3",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2014-04-18T19:25:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 15,
+    "mission": "OG-2 Mission 1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2014-07-14T15:15:00.000Z",
+    "customers": ["Orbcomm"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 16,
+    "mission": "AsiaSat 8",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2014-08-05T08:00:00.000Z",
+    "customers": ["AsiaSat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 17,
+    "mission": "AsiaSat 6",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2014-09-07T05:00:00.000Z",
+    "customers": ["AsiaSat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 18,
+    "mission": "CRS-4",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2014-09-21T05:52:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 19,
+    "mission": "CRS-5",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2015-01-10T09:47:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 20,
+    "mission": "DSCOVR",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2015-02-11T23:03:00.000Z",
+    "customers": ["NASA", "NOAA", "USAF"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 21,
+    "mission": "ABS-3A / Eutelsat 115W B",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2015-03-03T03:50:00.000Z",
+    "customers": ["ABS", "Eutelsat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 22,
+    "mission": "CRS-6",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2015-04-14T20:10:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 23,
+    "mission": "TürkmenÄlem 52°E / MonacoSAT",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2015-04-27T23:03:00.000Z",
+    "customers": ["Turkmenistan National Space Agency"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 24,
+    "mission": "CRS-7",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2015-06-28T14:21:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": false
+  },
+  {
+    "flightNumber": 25,
+    "mission": "OG-2 Mission 2",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2015-12-23T01:29:00.000Z",
+    "customers": ["Orbcomm"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 26,
+    "mission": "Jason 3",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2016-01-17T15:42:00.000Z",
+    "customers": ["NASA", "NOAA"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 27,
+    "mission": "SES-9",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2016-03-04T23:35:00.000Z",
+    "customers": ["SES"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 28,
+    "mission": "CRS-8",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2016-04-08T20:43:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 29,
+    "mission": "JCSAT-2B",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2016-05-06T05:21:00.000Z",
+    "customers": ["SKY Perfect JSAT Group"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 30,
+    "mission": "Thaicom 8",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2016-05-27T21:39:00.000Z",
+    "customers": ["Thaicom"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 31,
+    "mission": "ABS-2A / Eutelsat 117W B",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2016-06-15T14:29:00.000Z",
+    "customers": ["ABS", "Eutelsat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 32,
+    "mission": "CRS-9",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2016-07-18T04:45:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 33,
+    "mission": "JCSAT-16",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2016-08-14T05:26:00.000Z",
+    "customers": ["SKY Perfect JCSAT Group"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 34,
+    "mission": "Amos-6",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2016-09-01T13:07:00.000Z",
+    "customers": ["Spacecom"],
+    "upcoming": false,
+    "success": false
+  },
+  {
+    "flightNumber": 35,
+    "mission": "Iridium NEXT Mission 1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-01-14T17:54:00.000Z",
+    "customers": ["Iridium Communications"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 36,
+    "mission": "CRS-10",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-02-19T14:39:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 37,
+    "mission": "EchoStar 23",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-03-16T06:00:00.000Z",
+    "customers": ["EchoStar"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 38,
+    "mission": "SES-10",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-03-30T22:27:00.000Z",
+    "customers": ["SES"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 39,
+    "mission": "NROL-76",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-05-01T11:15:00.000Z",
+    "customers": ["NRO"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 40,
+    "mission": "Inmarsat-5 F4",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-05-15T23:21:00.000Z",
+    "customers": ["Inmarsat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 41,
+    "mission": "CRS-11",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-06-03T21:07:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 42,
+    "mission": "BulgariaSat-1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-06-23T19:10:00.000Z",
+    "customers": ["Bulgaria Sat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 43,
+    "mission": "Iridium NEXT Mission 2",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-06-25T20:25:00.000Z",
+    "customers": ["Iridium Communications"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 44,
+    "mission": "Intelsat 35e",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-07-05T23:35:00.000Z",
+    "customers": ["Intelsat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 45,
+    "mission": "CRS-12",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-08-14T16:31:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 46,
+    "mission": "FormoSat-5",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-08-24T18:50:00.000Z",
+    "customers": ["NSPO (Taiwan)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 47,
+    "mission": "Boeing X-37B OTV-5",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-09-07T13:50:00.000Z",
+    "customers": ["USAF"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 48,
+    "mission": "Iridium NEXT Mission 3",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-10-09T12:37:00.000Z",
+    "customers": ["Iridium Communications"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 49,
+    "mission": "SES-11 / Echostar 105",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-10-11T22:53:00.000Z",
+    "customers": ["SES", "Echostar"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 50,
+    "mission": "KoreaSat 5A",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-10-30T19:34:00.000Z",
+    "customers": ["KT Corporation"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 51,
+    "mission": "CRS-13",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-12-15T15:36:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 52,
+    "mission": "Iridium NEXT Mission 4",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2017-12-23T01:27:23.000Z",
+    "customers": ["Iridium Communications"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 53,
+    "mission": "ZUMA",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-01-08T01:00:00.000Z",
+    "customers": ["Northrop Grumman"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 54,
+    "mission": "SES-16 / GovSat-1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-01-31T21:25:00.000Z",
+    "customers": ["GovSat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 55,
+    "mission": "Falcon Heavy Test Flight",
+    "rocket": { "name": "Falcon Heavy", "id": "5e9d0d95eda69974db09d1ed" },
+    "target": "N/A",
+    "launchDate": "2018-02-06T20:45:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 56,
+    "mission": "Paz / Starlink Demo",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-02-22T14:17:00.000Z",
+    "customers": ["HisdeSAT", "SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 57,
+    "mission": "Hispasat 30W-6",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-03-06T05:33:00.000Z",
+    "customers": ["Hispasat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 58,
+    "mission": "Iridium NEXT Mission 5",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-03-30T15:13:51.000Z",
+    "customers": ["Iridium Communications"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 59,
+    "mission": "CRS-14",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-04-02T20:30:41.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 60,
+    "mission": "TESS",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-04-18T22:51:00.000Z",
+    "customers": ["NASA"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 61,
+    "mission": "Bangabandhu-1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-05-11T20:14:00.000Z",
+    "customers": ["Bangladesh Gov"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 62,
+    "mission": "Iridium NEXT Mission 6",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-05-22T20:47:58.000Z",
+    "customers": ["Iridium Communications", "NASA", "DLR"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 63,
+    "mission": "SES-12",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-06-04T04:45:00.000Z",
+    "customers": ["SES"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 64,
+    "mission": "CRS-15",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-06-29T09:42:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 65,
+    "mission": "Telstar 19V",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-07-22T05:50:00.000Z",
+    "customers": ["Telesat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 66,
+    "mission": "Iridium NEXT Mission 7",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-07-25T11:39:26.000Z",
+    "customers": ["Iridium Communications"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 67,
+    "mission": "Merah Putih",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-08-07T05:18:00.000Z",
+    "customers": ["Telkom"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 68,
+    "mission": "Telstar 18V",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-09-10T04:45:00.000Z",
+    "customers": ["Telesat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 69,
+    "mission": "SAOCOM 1A",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-10-08T02:22:00.000Z",
+    "customers": ["CONAE"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 70,
+    "mission": "Es’hail 2",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-11-15T20:46:00.000Z",
+    "customers": ["Es’hailSat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 71,
+    "mission": "SSO-A",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-12-03T18:34:00.000Z",
+    "customers": ["Spaceflight Industries, Inc"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 72,
+    "mission": "CRS-16",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-12-05T18:16:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 73,
+    "mission": "GPS III SV01",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2018-12-23T13:51:00.000Z",
+    "customers": ["USAF"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 74,
+    "mission": "Iridium NEXT Mission 8",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2019-01-11T15:31:00.000Z",
+    "customers": ["Iridium Communications"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 75,
+    "mission": "Nusantara Satu (PSN-6) / S5 / Beresheet",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2019-02-22T01:45:00.000Z",
+    "customers": [
+      "Pasifik Satelit Nusantara",
+      "Air Force Research Laboratory",
+      "SpaceIL"
+    ],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 76,
+    "mission": "CCtCap Demo Mission 1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2019-03-02T07:45:00.000Z",
+    "customers": ["NASA (CCtCap)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 77,
+    "mission": "ArabSat 6A",
+    "rocket": { "name": "Falcon Heavy", "id": "5e9d0d95eda69974db09d1ed" },
+    "target": "N/A",
+    "launchDate": "2019-04-11T22:35:00.000Z",
+    "customers": ["Arabsat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 78,
+    "mission": "CRS-17",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2019-05-04T06:48:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 79,
+    "mission": "Starlink v0.9",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2019-05-24T02:30:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 80,
+    "mission": "RADARSAT Constellation",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2019-06-12T14:17:00.000Z",
+    "customers": ["CSA"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 81,
+    "mission": "STP-2",
+    "rocket": { "name": "Falcon Heavy", "id": "5e9d0d95eda69974db09d1ed" },
+    "target": "N/A",
+    "launchDate": "2019-06-25T03:30:00.000Z",
+    "customers": [
+      "USAF",
+      "NOAA",
+      "NASA",
+      "Taiwan",
+      "NASA",
+      "Michigan Tech",
+      "General Atomics",
+      "Naval Postgrad School",
+      "Georgia Tech",
+      "Planetary Society",
+      "University of Texas",
+      "USAF Academy",
+      "SRI International",
+      "US Naval Academy",
+      "US Naval Academy",
+      "Naval Research Lab",
+      "Cal Poly",
+      "Merrit Island HS"
+    ],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 82,
+    "mission": "CRS-18",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2019-07-25T22:01:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 83,
+    "mission": "Amos-17",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2019-08-06T22:52:00.000Z",
+    "customers": ["Spacecom"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 84,
+    "mission": "Starlink-1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2019-11-11T14:56:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 85,
+    "mission": "CRS-19",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2019-12-05T17:29:23.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 86,
+    "mission": "JCSat 18 / Kacific 1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2019-12-17T00:10:00.000Z",
+    "customers": [
+      "SKY Perfect JSAT Corporation",
+      "Kacific Broadband Satellites Pte Ltd"
+    ],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 87,
+    "mission": "Starlink-2",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-01-07T02:19:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 88,
+    "mission": "Crew Dragon In Flight Abort Test",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-01-19T14:00:00.000Z",
+    "customers": ["NASA (CCtCap)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 89,
+    "mission": "Starlink-3",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-01-29T14:06:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 90,
+    "mission": "Starlink-4",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-02-17T15:05:55.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 91,
+    "mission": "CRS-20",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-03-07T04:50:31.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 92,
+    "mission": "Starlink-5",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-03-18T12:16:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 93,
+    "mission": "Starlink-6",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-04-22T19:30:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 95,
+    "mission": "Starlink-7",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-06-04T01:25:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 94,
+    "mission": "CCtCap Demo Mission 2",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-05-30T19:22:00.000Z",
+    "customers": ["NASA (CCtCap)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 96,
+    "mission": "Starlink-8 & SkySat 16-18",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-06-13T09:21:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 101,
+    "mission": "SAOCOM 1B, GNOMES-1, Tyvak-0172",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-08-30T23:18:00.000Z",
+    "customers": ["CONAE"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 97,
+    "mission": "GPS III SV03 (Columbus)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-06-30T19:55:00.000Z",
+    "customers": ["USAF"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 111,
+    "mission": "SXM-7",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-12-13T17:30:00.000Z",
+    "customers": ["SiriusXM"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 106,
+    "mission": "GPS III SV04 (Sacagawea)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-11-05T23:24:00.000Z",
+    "customers": ["United States Space Force"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 107,
+    "mission": "Crew-1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-11-16T00:27:00.000Z",
+    "customers": ["NASA (CCtCap)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 131,
+    "mission": "GPS III SV05",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-06-17T16:09:00.000Z",
+    "customers": ["USAF"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 110,
+    "mission": "CRS-21",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-12-06T16:17:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 113,
+    "mission": "Turksat 5A",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-01-08T02:15:00.000Z",
+    "customers": ["Turksat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 98,
+    "mission": "ANASIS-II",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-07-20T21:30:00.000Z",
+    "customers": ["South Korea"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 99,
+    "mission": "Starlink-9 (v1.0) & BlackSky Global 5-6",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-08-07T05:12:00.000Z",
+    "customers": ["SpaceX", "BlackSky Global"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 100,
+    "mission": "Starlink-10 (v1.0) & SkySat 19-21",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-08-18T14:31:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 108,
+    "mission": "Sentinel-6 Michael Freilich",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-11-21T17:17:00.000Z",
+    "customers": ["NASA"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 102,
+    "mission": "Starlink-11 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-09-03T12:46:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 103,
+    "mission": "Starlink-12 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-10-06T11:29:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 104,
+    "mission": "Starlink-13 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-10-18T12:25:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 105,
+    "mission": "Starlink-14 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-10-24T15:31:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 112,
+    "mission": "NROL-108",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-12-19T14:00:00.000Z",
+    "customers": ["National Reconnaissance Office"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 109,
+    "mission": "Starlink-15 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2020-11-25T02:13:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 114,
+    "mission": "Starlink-16 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-01-20T13:02:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 118,
+    "mission": "Starlink-17 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-03-04T08:24:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 115,
+    "mission": "Transporter-1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-01-24T15:00:00.000Z",
+    "customers": [],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 168,
+    "mission": "SARah 1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-06-18T14:19:00.000Z",
+    "customers": ["OHB-System", "AG", "Bundeswehr"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 123,
+    "mission": "Crew-2",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-04-23T09:49:00.000Z",
+    "customers": ["NASA (CCtCap)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 130,
+    "mission": "SXM-8",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-06-06T04:26:00.000Z",
+    "customers": ["SiriusXM"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 129,
+    "mission": "CRS-22 & IROSA",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-06-03T17:29:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 142,
+    "mission": "Türksat 5B",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-12-19T03:58:00.000Z",
+    "customers": ["Turksat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 138,
+    "mission": "DART",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-11-24T06:20:00.000Z",
+    "customers": ["NASA"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 133,
+    "mission": "CRS-23",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-08-29T07:14:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 136,
+    "mission": "Crew-3",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-11-11T02:03:00.000Z",
+    "customers": ["NASA (CCtCap)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 116,
+    "mission": "Starlink-18 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-02-04T06:19:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 117,
+    "mission": "Starlink-19 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-02-16T03:59:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 119,
+    "mission": "Starlink-20 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-03-11T08:13:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 120,
+    "mission": "Starlink-21 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-03-14T10:01:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 132,
+    "mission": "Transporter-2",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-06-30T19:31:00.000Z",
+    "customers": [],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 121,
+    "mission": "Starlink-22 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-03-24T08:28:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 122,
+    "mission": "Starlink-23 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-04-07T16:34:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 124,
+    "mission": "Starlink-24 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-04-29T03:44:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 125,
+    "mission": "Starlink-25 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-05-04T19:01:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 127,
+    "mission": "Starlink-26 (v1.0) + Capella-6 + Tyvak-0130",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-05-15T22:54:00.000Z",
+    "customers": [
+      "SpaceX",
+      "Capella Space",
+      "Tyvak Nano-Satellite Systems Inc",
+      "NOAA"
+    ],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 126,
+    "mission": "Starlink-27 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-05-09T06:42:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 128,
+    "mission": "Starlink-28 (v1.0)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-05-26T18:59:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 148,
+    "mission": "NROL-87",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-02-02T20:18:00.000Z",
+    "customers": ["National Reconnaissance Office", "USAF"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 135,
+    "mission": "Inspiration4",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-09-16T00:02:00.000Z",
+    "customers": ["Jared Isaacman"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 134,
+    "mission": "Starlink 2-1 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-09-14T03:55:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 140,
+    "mission": "IXPE",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-12-09T06:00:00.000Z",
+    "customers": ["NASA", "ASI"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 139,
+    "mission": "Starlink 4-3 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-12-01T23:20:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 143,
+    "mission": "CRS-24",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-12-21T10:06:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 147,
+    "mission": "CSG-2",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-01-31T23:11:12.000Z",
+    "customers": ["ESA"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 137,
+    "mission": "Starlink 4-1 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-11-13T12:40:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 141,
+    "mission": "Starlink 4-4 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2021-12-18T20:41:40.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 145,
+    "mission": "Transporter-3",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-01-13T15:25:00.000Z",
+    "customers": ["National Reconnaissance Office", "USAF"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 144,
+    "mission": "Starlink 4-5 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-01-06T21:49:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 146,
+    "mission": "Starlink 4-6 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-01-19T00:04:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 149,
+    "mission": "Starlink 4-7 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-02-03T18:13:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 156,
+    "mission": "Ax-1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-04-08T15:17:00.000Z",
+    "customers": ["Axiom Space"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 150,
+    "mission": "Starlink 4-8 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-02-21T14:44:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 151,
+    "mission": "Starlink 4-11 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-02-25T17:12:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 152,
+    "mission": "Starlink 4-9 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-03-03T14:35:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 153,
+    "mission": "Starlink 4-10 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-03-09T13:45:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 154,
+    "mission": "Starlink 4-12 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-03-19T03:24:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 155,
+    "mission": "Transporter-4",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-04-01T16:24:00.000Z",
+    "customers": [],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 158,
+    "mission": "Starlink 4-14 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-04-21T15:16:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 157,
+    "mission": "NROL-85",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-04-17T13:13:00.000Z",
+    "customers": ["USAF", "National Reconnaissance Office"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 159,
+    "mission": "Crew-4",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-04-27T07:52:00.000Z",
+    "customers": ["NASA (CCtCap)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 166,
+    "mission": "Nilesat-301",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-06-08T21:04:00.000Z",
+    "customers": ["Nilesat"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 165,
+    "mission": "Transporter-5",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-05-25T18:27:00.000Z",
+    "customers": [],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 173,
+    "mission": "CRS-25",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-07-15T00:44:00.000Z",
+    "customers": ["NASA (CRS)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 200,
+    "mission": "WorldView Legion 1 & 2",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-12-01T00:00:00.000Z",
+    "customers": ["DigitalGlobe"],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 203,
+    "mission": "O3b mPower 3.4",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-12-01T00:00:00.000Z",
+    "customers": ["SES"],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 170,
+    "mission": "SES-22",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-06-29T21:04:00.000Z",
+    "customers": ["SES"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 188,
+    "mission": "USSF-44",
+    "rocket": { "name": "Falcon Heavy", "id": "5e9d0d95eda69974db09d1ed" },
+    "target": "N/A",
+    "launchDate": "2022-11-01T13:41:00.000Z",
+    "customers": ["USSF"],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 196,
+    "mission": "O3b mPower 1,2",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-11-01T00:00:00.000Z",
+    "customers": ["SES"],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 163,
+    "mission": "Starlink 4-15 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-05-14T20:40:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 162,
+    "mission": "Starlink 4-13 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-05-13T22:07:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 160,
+    "mission": "Starlink 4-16 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-04-29T21:27:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 161,
+    "mission": "Starlink 4-17 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-05-06T09:42:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 164,
+    "mission": "Starlink 4-18 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-05-18T10:40:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 167,
+    "mission": "Starlink 4-19 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-06-01T17:08:50.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 169,
+    "mission": "Globalstar FM15",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-06-19T04:27:00.000Z",
+    "customers": ["Globalstar"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 171,
+    "mission": "Starlink 4-21 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-07-07T13:11:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 172,
+    "mission": "Starlink 3-1 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-07-11T01:39:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": null
+  },
+  {
+    "flightNumber": 174,
+    "mission": "Starlink 4-22 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-07-17T14:50:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 175,
+    "mission": "Starlink 3-2 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-07-21T17:13:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 176,
+    "mission": "Starlink 4-25 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-07-24T00:00:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 177,
+    "mission": "KPLO",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-08-04T23:08:00.000Z",
+    "customers": ["KARI"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 184,
+    "mission": "Starlink 4-2 (v1.5) & Blue Walker 3",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-09-11T01:10:00.000Z",
+    "customers": ["SpaceX", "AST & Science"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 178,
+    "mission": "Starlink 4-26 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-08-09T22:57:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 187,
+    "mission": "Crew-5",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-10-05T16:00:00.000Z",
+    "customers": ["NASA (CCtCap)"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 179,
+    "mission": "Starlink 3-3 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-08-12T21:30:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 180,
+    "mission": "Starlink 4-27 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-08-19T19:24:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 181,
+    "mission": "Starlink 4-23 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-08-28T02:22:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 183,
+    "mission": "Starlink 4-20 (v1.5) & Sherpa LTC-2/Varuna-TDM",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-09-05T02:09:00.000Z",
+    "customers": ["SpaceX", "Boeing"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 182,
+    "mission": "Starlink 3-4 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-08-31T05:40:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 185,
+    "mission": "Starlink 4-34 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-09-17T01:05:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 186,
+    "mission": "Starlink 4-35 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-09-24T23:30:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": false,
+    "success": true
+  },
+  {
+    "flightNumber": 188,
+    "mission": "Starlink 4-36 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-10-20T14:50:00.000Z",
+    "customers": ["SpaceX"],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 199,
+    "mission": "TTL-1",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-12-01T00:00:00.000Z",
+    "customers": ["Space Development Agency"],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 188,
+    "mission": "Galaxy 33 (15R) & 34 (12R)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-10-08T23:05:00.000Z",
+    "customers": [],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 188,
+    "mission": "Hotbird 13F",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-10-15T05:22:00.000Z",
+    "customers": [],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 195,
+    "mission": "Starlink 4-37 (v1.5)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-11-01T00:00:00.000Z",
+    "customers": [],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 191,
+    "mission": "Galaxy 31 (23R) & 32 (17R)",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-11-08T00:00:00.000Z",
+    "customers": [],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 192,
+    "mission": "Eutelsat 10B",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-11-15T00:00:00.000Z",
+    "customers": [],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 194,
+    "mission": "CRS-26",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-11-18T22:00:00.000Z",
+    "customers": [],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 189,
+    "mission": "Hotbird 13G",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-11-03T03:24:00.000Z",
+    "customers": [],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 198,
+    "mission": "SES-18 & SES-19",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-11-01T00:00:00.000Z",
+    "customers": [],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 202,
+    "mission": "Viasat-3 & Arcturus",
+    "rocket": { "name": "Falcon Heavy", "id": "5e9d0d95eda69974db09d1ed" },
+    "target": "N/A",
+    "launchDate": "2022-12-01T00:00:00.000Z",
+    "customers": [],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 193,
+    "mission": "ispace Mission 1 & Rashid",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-11-22T00:00:00.000Z",
+    "customers": [],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 197,
+    "mission": "SWOT",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-12-05T00:00:00.000Z",
+    "customers": [],
+    "upcoming": true,
+    "success": null
+  },
+  {
+    "flightNumber": 198,
+    "mission": "Transporter-6",
+    "rocket": { "name": "Falcon 9", "id": "5e9d0d95eda69973a809d1ec" },
+    "target": "N/A",
+    "launchDate": "2022-12-01T00:00:00.000Z",
+    "customers": [],
+    "upcoming": true,
+    "success": null
+  }
+]
