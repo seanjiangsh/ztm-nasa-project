@@ -31,8 +31,12 @@ const DEFAULT_FLIGHT_NUMBER = 100;
 // };
 // saveLaunch(launch);
 
-async function getAllLaunches() {
-  return await launches.find<Launch>({}, FIND_OPTION);
+async function getAllLaunches(skip: number, limit: number) {
+  return await launches
+    .find<Launch>({}, FIND_OPTION)
+    .skip(skip)
+    .limit(limit)
+    .sort({ flightNumber: 1 });
 }
 
 async function getLatestFlightNumber(): Promise<number> {
@@ -108,7 +112,7 @@ async function loadLaunchesData() {
     console.log("Launch data already loaded");
   } else {
     const launches = await getSpaceXLaunches();
-    launches.forEach(saveLaunch);
+    launches.forEach(async (launch) => await saveLaunch(launch));
     console.log("New SpaceX launches loaded");
   }
 }

@@ -8,9 +8,12 @@ import {
   findLaunch,
 } from "../../models/launches.model";
 import { findPlanet } from "../../models/planets.model";
+import { getPagination } from "../../services/query";
 
 async function httpGetAllLaunches(req: Request, res: Response) {
-  return res.json(await getAllLaunches());
+  const { skip, limit } = getPagination(req);
+  const launches = await getAllLaunches(skip, limit);
+  return res.json(launches);
 }
 
 async function httpPostNewLaunches(req: Request, res: Response) {
