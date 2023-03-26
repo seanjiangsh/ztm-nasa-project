@@ -12,10 +12,10 @@ POST http://localhost:5000/v1/launches HTTP/1.1
 content-type: application/json
 
 { 
-  "mission": "ZTM155",
-  "rocket": "ZTM Experimental R1",
-  "launchDate": "January 17, 2030",
-  "target": "Kepler-1410 b"
+  "mission": "USS Enterprise",
+  "rocket": "NCC 1701-D",
+  "target": "Kepler-1410 b",
+  "launchDate": "January 4, 2028"
 }
 
 ### /launches

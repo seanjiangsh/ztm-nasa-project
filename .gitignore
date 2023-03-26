@@ -6,3 +6,4 @@
 
 # secrets
 *.key
+*.env
