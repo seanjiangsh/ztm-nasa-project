@@ -2,12 +2,15 @@ import path from "path";
 import express from "express";
 import cors from "cors";
 import morgan from "morgan";
-
+import helmet from "helmet";
 import apiV1 from "./routes/v1";
 
 const app = express();
 
 // ! middlewares
+// * helper to add secure headers
+app.use(helmet());
+// * logger
 app.use(morgan("combined"));
 
 // * logging Method, URL and response time
