@@ -4,12 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start-server": "npm start --prefix server",
-    "start-client": "npm start --prefix client",
-    "build": "set BUILD_PATH=../server/public && npm run build --prefix client",
-    "start": "concurrently \"npm run start-server\" \"npm run start-client\"",
-    "deploy": "npm run build && npm run start-server",
-    "test-server": "cd server && npm run test"
+    "install-server": "cd server && npm install && cd ..",
+    "install-client": "cd client && npm install && cd ..",
+    "install": "npm run install-server && npm run install-client",
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "watch": "concurrently \"npm run server\" \"npm run client\"",
+    "deploy": "npm run build --prefix client && npm start --prefix server",
+    "test": "npm test --prefix server && npm test --prefix client"
   },
   "devDependencies": {
     "concurrently": "^7.6.0"

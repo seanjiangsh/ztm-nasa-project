@@ -4,7 +4,8 @@
   "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
-    "start": "set PORT=5000 && nodemon src/index.ts",
+    "start": "ts-node src/index.ts",
+    "watch": "set PORT=5000 && nodemon src/index.ts",
     "test": "jest",
     "test-watch": "jest --watchAll",
     "cluster": "tsc && pm2 start build/index.js -i 2"
@@ -32,6 +33,7 @@
     "nodemon": "^2.0.22",
     "supertest": "^6.3.3",
     "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
   }
 }
