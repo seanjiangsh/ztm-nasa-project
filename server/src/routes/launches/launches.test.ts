@@ -3,6 +3,7 @@ const request = require("supertest");
 
 import app from "../../app";
 import { mongoConnect, mongoDisconnect } from "../../services/mongo";
+import { loadPlanetsData } from "../../models/planets.model";
 
 const API_VERSION = "v1";
 
@@ -72,6 +73,7 @@ const postLaunches = () => {
 
 describe("Launches API", () => {
   beforeAll(async () => await mongoConnect());
+  beforeAll(async () => await loadPlanetsData());
   describe(`Test GET /${API_VERSION}/launches`, getLaunches);
   describe(`Test POST /${API_VERSION}/launches`, postLaunches);
   afterAll(async () => await mongoDisconnect());
