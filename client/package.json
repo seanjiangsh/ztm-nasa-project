@@ -9,9 +9,12 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "^5.0.0"
   },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "set BUILD_PATH=../server/public&& react-scripts build",
+    "build": "cross-env BUILD_PATH=../server/public react-scripts build",
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject"
   },
