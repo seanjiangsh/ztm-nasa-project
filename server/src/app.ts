@@ -8,8 +8,10 @@ import apiV1 from "./routes/v1";
 const app = express();
 
 // ! middlewares
-// * helper to add secure headers
-app.use(helmet());
+// * helper to add secure headers,
+// * disable for HTTP env, browser will try to load js files from HTTPS
+// app.use(helmet());
+
 // * logger
 app.use(morgan("combined"));
 
